@@ -1,0 +1,89 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.pgn {
+  background: #fff;
+  height: 512px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.index {
+  width: 26px;
+  text-align: center;
+  font-size: 13px;
+  height: 22px;
+  display: inline-block;
+  line-height: 22px;
+  padding: 3px 0;
+  background: #e0e0e0;
+}
+.move {
+  position: relative;
+  width: calc(50% - 14px - 13px);
+  font-size: 17px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 2px 7px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.13s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  font-family: 'ChessSansPiratf',sans-serif;
+  text-decoration: none;
+  color: #747474;
+}
+
+.active {
+  color: #d85000;
+  font-weight: bold;
+}
+
+.variation {
+  border-bottom: 1px solid #ccc;
+  font-weight: lighter;
+  background-color: #e0e0e0;
+  font-weight: lighter;
+}
+
+.variation.border {
+  border-top: 1px solid #ccc;
+}
+
+.variation.index:first-child {
+  margin-left: 0;
+}
+
+.variation .move {
+  padding: 2px 2px;
+  font-size: 12px;
+  width: auto;
+}
+
+.variation .index {
+  font-size: 12px;
+  width: auto;
+}
+
+.move.empty {
+  cursor: auto;
+}
+
+.controls {
+
+}
+
+.controls a {
+  padding: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}

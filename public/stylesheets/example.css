@@ -1,0 +1,34 @@
+body {
+  background: #202020;
+  color: #b0b0b0;
+  font-size: 11px;
+}
+section {
+  display: inline-block;
+  margin: 0 5px 20px 0;
+  background: #404040;
+  padding: 5px;
+  border-radius: 2px;
+}
+section p {
+  margin: 5px 0 0 0;
+}
+
+.chessground {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.chessground.tiny {
+  width: 225px;
+  height: 225px;
+}
+.chessground.small {
+  width: 300px;
+  height: 300px;
+}
+
+.chessground.medium {
+  width: 512px;
+  height: 512px;
+}
