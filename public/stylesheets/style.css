@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ChessSansPiratf';
+  src: url("fonts/ChessSansPiratf.eot?#iefix") format("embedded-opentype"), url("fonts/ChessSansPiratf.woff") format("woff"), url("fonts/ChessSansPiratf.ttf") format("truetype"), url(" fonts/ChessSansPiratf.svg#lichess") format("svg");
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -11,7 +16,7 @@ a {
   background: #fff;
   height: 512px;
   display: inline-block;
-  width: 30%;
+  width: 20%;
   vertical-align: top;
 }
 
@@ -22,7 +27,7 @@ a {
   height: 22px;
   display: inline-block;
   line-height: 22px;
-  padding: 3px 0;
+  padding: 2px 0;
   background: #e0e0e0;
 }
 .move {
@@ -38,7 +43,7 @@ a {
   transition-duration: 0.13s;
   transition-timing-function: initial;
   transition-delay: initial;
-  font-family: 'ChessSansPiratf',sans-serif;
+  font-family: 'ChessSansPiratf', sans-serif;
   text-decoration: none;
   color: #747474;
 }
@@ -53,6 +58,7 @@ a {
   font-weight: lighter;
   background-color: #e0e0e0;
   font-weight: lighter;
+  padding: 3px 5px 0 5px;
 }
 
 .variation.border {
